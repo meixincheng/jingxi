@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;			/*合并外边线*/
+}
+
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+    color: #666;
+    background: #fff;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+/*nav部分start*/
+.nav{
+    height: 30px;
+    line-height: 30px;
+    background-color: #F1F1F1;
+}
+.nav-l, .nav-r .fore
+
+{
+    padding:0 25px 0 4px;
+    position: relative;
+}
+.nav-l i,.nav-r .fore i
+{
+    width: 15px;
+    height: 7px;
+    overflow: hidden;
+    position: absolute;
+    top: 12px;
+    right: 6px;
+
+}
+.nav-l i s,.nav-r .fore i s {
+    position: absolute;
+    top: -14px;
+}
+.nav-r li{
+    float: left;
+    padding:0 10px;
+}
+.nav-r .line{
+    width: 1px;
+    height: 12px;
+    padding:0px;
+    background: black;
+    margin-top: 10px;
+}
+.nav-r .tel{
+    padding-left:20px;
+    position: relative;
+}
+.nav-r .tel span{
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 18px;
+    height: 19px;
+    background:url(../images/tel.png) no-repeat;
+}
+/*nav部分end*/
+
+
+
+/*banner部分start*/
+.banner{
+    background-color: #EB193C;
+}
+.banner-w{
+    position: relative;
+}
+.banner #wrong{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 19px;
+    height: 19px;
+    background: url(../images/closebanner.png) no-repeat;
+}
+
+/*banner部分end*/
+
+/*search部分start*/
+.search-logo{
+    width: 362px;
+    height: 60px;
+    padding: 20px 0;
+    float: left;
+
+}
+.search-logo a{
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -9999px;
+    background:url(../images/logo.png) no-repeat;
+}
+.search-input{
+    height: 36px;
+    padding-top: 25px;
+}
+.search-input input {
+    width: 450px;
+    height: 32px;
+    float: left;
+    padding-left: 4px;
+    font: 400 14px/32px "microsoft yahei";
+    color: #999;
+    border: 2px solid #B61D1D;
+}
+.search-input button{
+    width: 80px;
+    height: 36px;
+    float: left;
+    background-color: #B61D1D;
+    color: white;
+    font: 16px/36px "微软雅黑";
+    cursor: pointer;
+}
+.search-car{
+    position: relative;
+    width: 96px;
+    height: 34px;
+    background-color: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    padding-left: 43px;
+    line-height: 34px;
+    margin: 25px 65px 0 0;
+}
+.search-car .icon1{
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    width: 18px;
+    height: 16px;
+    background: url("../images/tel.png") no-repeat 0 -58px;
+}
+.search-car .icon2{
+    position: absolute;
+    right: 10px;
+    font: 400 13px/34px "simsun";
+}
+.search-car .icon3{
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    top: -5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #C81623;
+    border-radius:7px 7px 7px 0;
+}
+.search-link{
+    width: 500px;
+    height: 28px;
+    line-height: 28px;
+}
+.search-link a{
+    margin-right: 7px;
+}
+.search-link .default{
+    color: #C81623 !important;
+}
+/*search部分end*/
+/*footer部分start*/
+.footer-top-slogan{
+    height: 94px;
+    background-color: #F5F5F5;
+    margin-bottom: 15px;
+    position: relative;
+}
+.footer-top-slogan span{
+    position: absolute;
+    left:50%;
+    top:20px;
+}
+.footer-top-slogan .icon1{
+    margin-left: -604px;
+}
+.footer-top-slogan .icon2{
+    margin-left: -302px;
+}
+.footer-top-slogan .icon4{
+    margin-left: 302px;
+}
+.footer-top-shopping dl{
+    float: left;
+    width: 200px;
+}
+.footer-top-shopping .last-dl{
+    width: 100px;
+}
+.average{
+    float: right;
+    width: 187px;
+    height: 168px;
+    margin-right: 40px;
+    padding-left: 17px;
+    background: url(../images/china.png) no-repeat left bottom;
+}
+.average h3{
+    height: 35px;
+    font: 400 16px/35px "microsoft yahei";
+    background-color: white;
+}
+.average p{
+    margin-top: 10px;
+}
+.average a{
+    float: right;
+}
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 20px;
+    padding: 23px 0;
+}
+.footer-bottom-link a {
+    padding: 0 10px;
+}
+.footer-bottom-copyright {
+    padding: 16px 0 13px 0;
+    line-height: 20px;
+}
+.footer-bottom-img a {
+    margin: 0 6px;
+}
+/*footer部分end*/
+
+
+
+
+
+
+
+

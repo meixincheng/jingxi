@@ -1,0 +1,275 @@
+    @charset "UTF-8";
+    /*shortcut部分start*/
+    .shortcut {
+        width: 100%;
+        height: 44px;
+        border-bottom: 2px solid #B1191A;
+    }
+    .shortcut-nav {
+        width: 210px;
+        height: 44px;
+        float: left;
+        position: relative;
+        z-index: 1;
+    }
+    .shortcut-nav-menu a {
+        display: block;
+        width: 200px;
+        height: 44px;
+        padding-left: 10px;
+        background-color: #B1191A;
+        color: white;
+        font: 400 15px/44px "microsoft yahei";
+    }
+    .shortcut-nav-submenu {
+        height: 465px;
+        margin-top: 2px;
+        border-left: 1px solid #B61D1D;
+        border-bottom: 1px solid #B61D1D;
+    }
+    .shortcut-nav-submenu div {
+        height: 31px;
+        padding: 0 10px;
+        font: 400 14px/31px "microsoft yahei";
+        background-color: #C81623;
+        color: #fff;
+    }
+    .shortcut-nav-submenu div:hover {
+        background-color: #fff;
+    }
+    .shortcut-nav-submenu div:hover a {
+        color: #C81623;
+        line-height: 31px;
+    }
+    .shortcut-nav-submenu h3 {
+        float: left;
+    }
+    .shortcut-nav-submenu a {
+        color: #fff;
+    }
+    .shortcut-nav-submenu s {
+        float: right;
+        font-family: "consolas";
+    }
+    .shortcut-items {
+        width: 730px;
+        height: 44px;
+        float: left;
+    }
+    .shortcut-items li {
+        float: left;
+    }
+    .shortcut-items a {
+        display: inline-block;
+        height: 44px;
+        padding: 0 20px;
+        color: #333;
+        font: 400 16px/44px "microsoft yahei";
+    }
+    .shortcut-items a:hover {
+        color: #C81623;
+    }
+    .new {
+        background: url(../images/new.jpg) no-repeat right top;
+    }
+    .shortcut-pic {
+        width: 174px;
+        height: 39px;
+        float: right;
+        margin: -5px 76px 0 0;
+    }
+    /*shortcut部分start*/
+
+    /*subbanner部分start*/
+    .subbanner {
+        position: relative;
+    }
+    .subbanner a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 613px;
+        background: url(../images/subbanner.jpg) no-repeat center top;
+    }
+    /*subbanner部分start*/
+
+    /*main部分start*/
+    .main {
+        position: relative;
+    }
+    .main-slider {
+        margin: 12px 0 0 220px;
+        float: left;
+        position: relative;
+    }
+    .circle {
+        position: absolute;
+        left: 50%;
+        margin-left: -66px;
+        bottom: 5px;
+    }
+    .circle li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        background-color: #3E3E3E;
+        border-radius: 9px;
+        text-align: center;
+        line-height: 18px;
+        color: #fff;
+        cursor: pointer;
+        margin: 0 2px;
+    }
+    .circle .current {
+        background-color: #B61B1F;
+    }
+    .arrow a {
+        position: absolute;
+        top: 50%;
+        margin-top: -31px;
+        width: 28px;
+        height: 62px;
+        text-align: center;
+        font: 400 22px/62px "simsun";
+        background: rgba(0,0,0,0.3);
+        color: #fff;
+    }
+    .arrow a:hover {
+        background: rgba(0, 0, 0, .8);
+    }
+    .arrow-l {
+        left: 0;
+    }
+    .arrow-r {
+        right: 0;
+    }
+    .main-news {
+        float: right;
+        margin-top: 12px;
+    }
+    .main-news-faster {
+        width: 248px;
+        height: 372px;
+        border: 1px solid #E4E4E4;
+        margin-bottom: 5px;
+        overflow: hidden;
+    }
+    .main-news-faster-top {
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;            /*大使的---虚线---dashied*/
+    }
+    .main-news-faster-top-title {
+        height: 32px;
+        padding: 0 15px;
+        font: 16px/32px "microsoft yahei";
+        border-bottom: 1px dotted #E4E4E4;                  /*刀剃的---点线---dotted*/
+    }
+    .main-news-faster-top-title h3 {
+        float: left;
+
+    }
+    .main-news-faster-top-title a {
+        float: right;
+        font: 12px/32px "consolas";
+    }
+    .main-news-faster-top-content {
+        padding: 5px 0 0 15px;
+    }
+    .main-news-faster-top-content li {
+        line-height: 24px;
+    }
+    .main-news-faster-top-content span {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .main-news-faster-bottom ul {
+        width: 260px;
+    }
+    .main-news-faster-bottom li {
+        width: 62px;
+        height: 70px;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        border: 1px solid #E8E8E7;
+        border-top: 0;
+    }
+    .main-news-faster-bottom a {
+        display: block;
+        width: 62px;
+        height: 22px;
+        text-align: center;
+        padding-top: 48px;
+        position: relative;
+    }
+    .spe1 {
+        background: url(../images/qiang.png) no-repeat right top;
+    }
+    .spe2 {
+        background: url(../images/hot.png) no-repeat right top;
+    }
+    .main-news-faster-bottom i {
+        position: absolute;
+        top: 15px;
+        left: 18px;
+        width: 25px;
+        height: 25px;
+        background: url(../images/fly.png) no-repeat;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon2 {
+        background-position: 0 -25px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon3 {
+        background-position: 0 -50px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon4 {
+        background-position: 0 -75px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon5 {
+        background-position: 0 -100px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon6 {
+        background-position: 0 -125px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon7 {
+        background-position: 0 -150px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon8 {
+        background-position: 0 -175px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon9 {
+        background-position: 0 -200px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon10 {
+        background-position: 0 -225px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon11 {
+        background-position: 0 -250px;
+    }
+    .main-news-faster-bottom .main-news-faster-bottom-icon12 {
+        background-position: 0 -275px;
+    }
+    /*main部分start*/
+
+    /*brand部分start*/
+    .brand {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .brand-r {
+        position: relative;
+        width: 1000px;
+        height: 164px;
+        overflow: hidden;
+    }
+    .brand-r ul {
+        width: 400%;
+    }
+    .brand-r li {
+        float: left;
+        margin-right: 1px;
+    }
+    /*brand部分start*/
+

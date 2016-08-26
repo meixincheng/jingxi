@@ -1,0 +1,240 @@
+/*menu部分start*/
+.menu{
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.menu-nav{
+    width: 210px;
+    height: 44px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.menu-nav .menu-nav-title a{
+    display: block;
+    width: 200px;
+    height: 44px;
+    padding-left:10px;
+    background-color: #B1191A;
+    color: white;
+    font: 400 15px/44px "microsoft yahei";
+}
+.menu-nav-content{
+    height: 465px;
+    margin-top: 2px;
+    border-left: 1px solid #B61D1D;
+    border-bottom: 1px solid #B61D1D;
+
+}
+.menu-nav-content div{
+    height: 31px;
+    padding: 0 10px;
+    font: 400 14px/31px "microsoft yahei";
+    background-color: #C81623;
+    color: #fff;
+}
+.menu-nav-content div:hover{
+    background-color: #fff;
+}
+.menu-nav-content div a{
+    color:#fff;
+}
+.menu-nav-content div:hover a{
+    color:red;
+}
+.menu-nav-content div s{
+    float: right;
+    font-family: "consolas";
+}
+.menu-items{
+    width: 730px;
+    height: 44px;
+    float: left;
+}
+.menu-items li{
+    float: left;
+}
+.menu-items li a{
+    display: inline-block;
+    height: 44px;
+    padding: 0 20px;
+    color: #333;
+    font: 400 16px/44px "microsoft yahei";
+}
+.new{
+
+    background:url(../images/new.jpg) no-repeat right top;
+}
+.menu-pic{
+    width: 174px;
+    height: 39px;
+    float: right;
+    margin: -5px 76px 0 0;
+}
+/*menu部分end*/
+
+/*background部分start*/
+.background{
+    position: relative;
+}
+.background a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 613px;
+    background: url(../images/subbanner.jpg) no-repeat center top;
+}
+/*background部分end*/
+
+/*main部分start*/
+.main{
+    position: relative;
+}
+.main-slider{
+    margin: 12px 0 0 220px;
+    width: 730px;
+    height: 454px;
+    /*background-color: red;*/
+    /*margin:100px auto;*/
+    /*position: relative;*/
+    overflow: hidden;
+    position: relative;
+}
+#imglist{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#imglist li{
+    float: left;
+}
+.page{
+    position: absolute;
+    bottom: 5px;
+    left:50%;
+    margin-left: -67px;
+}
+.page li{
+    float: left;
+    background-color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.page .active{
+    background-color: red;
+}
+.turn a{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    margin-top: -31px;
+    text-align: center;
+    font: 400 22px/62px "simsun";
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top:50%;
+}
+.turn a:hover{
+    background-color: black;
+}
+.turn-left{
+    left:0;
+}
+ .turn-right{
+    right:0;
+}
+ .main-news{
+     margin-top:12px;
+
+ }
+ .main-news-faster{
+     width: 248px;
+     height: 372px;
+     border: 1px solid #E4E4E4;
+     margin-bottom: 5px;
+     overflow: hidden;
+ }
+.main-news-faster-top{
+    height: 163px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.main-news-faster-top-title{
+    height: 32px;
+    padding: 0 15px;
+    font: 16px/32px "microsoft yahei";
+    border-bottom: 1px dotted #E4E4E4;
+}
+.main-news-faster-top-title h3{
+    float: left;
+}
+.main-news-faster-top-title a{
+    float: right;
+    font: 12px/32px "consolas";
+}
+.main-news-faster-top-content{
+    padding:5px 0 0 15px;
+}
+.main-news-faster-top-content li{
+    line-height: 24px;
+}
+.main-news-faster-top-content span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.main-news-faster-bottom ul{
+    width: 260px;
+}
+.main-news-faster-bottom ul li{
+    width: 62px;
+    height: 70px;
+    float: left;
+    border:1px solid  #E8E8E7;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top: 0;
+}
+.main-news-faster-bottom a{
+    display: block;
+    width: 62px;
+    height: 22px;
+    padding-top: 48px;
+    position: relative;
+    text-align: center;
+}
+.main-news-faster-bottom a i{
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+}
+/*main部分end*/
+
+/*brand部分start*/
+.brand{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.brand-r{
+    width: 1000px;
+    height: 164px;
+    overflow: hidden;
+    position: relative;
+}
+.brand-r ul{
+    width:400%;
+}
+.brand-r li{
+    float: left;
+    margin-right: 1px;
+}
+/*brand部分end*/
+
